@@ -58,4 +58,21 @@
   width: 90px;
 }
 
+footer {
+  background-color: black;
+  padding: 37px;
+  font-size: 12px;
+}
+footer .CopyOBC {
+  color: #555252;
+  align-items: center;
+  margin-top: 16px;
+  font-weight: 500;
+}
+footer .link-social {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=style.css.map */
