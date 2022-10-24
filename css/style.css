@@ -13,13 +13,21 @@
   min-height: 100vh;
 }
 
+.description-global {
+  padding-top: 200px;
+}
+.description-global .btn-global {
+  margin-top: 48px;
+  padding: 15px 35px;
+  border: solid 2px;
+}
+
 .container-bg-img {
   background-image: url("../../imagens/home/01.jpg");
 }
 
-.margin-global {
-  margin: 0 auto;
-  width: 85%;
+.container-bg-img2 {
+  background-image: url("../../imagens/home/03.jpg");
 }
 
 .navbar {
@@ -34,6 +42,12 @@
 .navbar .logo-navbar {
   width: 240px;
   margin-right: 20px;
+  margin-left: -10px;
+}
+
+.arrow-down img {
+  margin-top: 5px;
+  width: 90px;
 }
 
 /*# sourceMappingURL=style.css.map */
