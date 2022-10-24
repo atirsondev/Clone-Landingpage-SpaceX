@@ -34,6 +34,10 @@
   background-image: url("../../imagens/home/02.gif");
 }
 
+.container-bg-img4 {
+  background-image: url("../../imagens/home/04.jpg");
+}
+
 .navbar {
   padding-top: 24px;
 }
