@@ -69,7 +69,6 @@ footer {
 
   .CopyOBC {
     color: #555252;
-    align-items: center;
     margin-top: 16px;
     font-weight: 500;
   }
@@ -81,6 +80,26 @@ footer {
   }
 }
 
+@media (max-width: 425px) {
+  .navbar {
+    .logo-navbar {
+      width: 200px;
+    }
+  }
+}
 
-
+@media (max-width: 393px) {
+  .navbar {
+    .logo-navbar {
+      width: 150px;
+    }
+    svg {
+      width: 30px;
+    }
+  }
+  
+  footer {
+    font-size: 10px;
+  }
+}
 
