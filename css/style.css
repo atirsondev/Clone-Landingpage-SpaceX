@@ -58,17 +58,17 @@
   width: 90px;
 }
 
-footer {
+.footer {
   background-color: black;
   padding: 37px;
   font-size: 12px;
 }
-footer .CopyOBC {
+.footer .CopyOBC {
   color: #555252;
   margin-top: 16px;
   font-weight: 500;
 }
-footer .link-social {
+.footer .link-social {
   text-decoration: none;
   color: #fff;
   font-weight: 500;
@@ -86,6 +86,89 @@ footer .link-social {
   footer {
     font-size: 10px;
   }
+}
+.container-bg-img-falcon9 {
+  background-image: url("../../imagens/falcon9/01.jpg");
+}
+
+.container-bg-img2-falcon9 {
+  background-image: url("../../imagens/falcon9/02.jpg");
+}
+
+.container-bg-img3-falcon9 {
+  background-image: url("../../imagens/falcon9/03.jpg");
+}
+
+.container-bg-img4-falcon9 {
+  background-image: url("../../imagens/falcon9/04.jpg");
+}
+
+.container-bg-img5-falcon9 {
+  background-image: url("../../imagens/falcon9/05.jpg");
+}
+
+.container-bg-img6-falcon9 {
+  background-image: url("../../imagens/falcon9/06.jpg");
+}
+
+.container-bg-img7-falcon9 {
+  background-image: url("../../imagens/falcon9/07.jpg");
+}
+
+.container-bg-img8-falcon9 {
+  background-image: url("../../imagens/falcon9/08.jpg");
+}
+
+.container-title-falcon9 {
+  min-height: 80vh;
+}
+.container-title-falcon9 .title-falcon9 {
+  font-size: 90px;
+  color: #fff;
+  font-weight: 750;
+  font-family: sans-serif;
+}
+.container-title-falcon9 .subtitle-falcon9 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 750;
+}
+
+.container-numbers {
+  min-height: 320px;
+  background-color: black;
+}
+.container-numbers .number {
+  font-size: 90px;
+  color: #fff;
+}
+.container-numbers .description-number {
+  font-size: 18px;
+  color: #fff;
+}
+
+.falcon-description {
+  text-align: start;
+}
+.falcon-description .text-falcon-description {
+  font-size: 22px;
+  color: #fff;
+  line-height: 50px;
+  width: 57%;
+}
+
+.table, .description-carousel, .first-sentence, .title-carousel {
+  font-size: 16px;
+  color: #fff;
+  width: 500px;
+}
+
+.title-carousel {
+  font-size: 27px;
+}
+
+.container-carousel {
+  padding-top: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
