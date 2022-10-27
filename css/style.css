@@ -87,10 +87,6 @@
     font-size: 10px;
   }
 }
-* {
-  overflow-x: hidden;
-}
-
 .container-bg-img-falcon9 {
   background-image: url("../../imagens/falcon9/01.jpg");
 }
