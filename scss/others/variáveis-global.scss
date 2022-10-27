@@ -1,0 +1,42 @@
+@mixin container-img-global {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+@mixin navbar-global {
+  padding-top: 24px;
+
+  .nav-link {
+    color: $color-description;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 9px;
+  }
+
+  .logo-navbar {
+    width: 240px;
+    margin-right: 20px;
+    margin-left: -10px;
+  }
+}
+
+@mixin footer {
+  background-color: black;
+  padding: 37px;
+  font-size: 12px;
+
+
+  .CopyOBC {
+    color: #555252;
+    margin-top: 16px;
+    font-weight: 500;
+  }
+
+  .link-social {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
+}
