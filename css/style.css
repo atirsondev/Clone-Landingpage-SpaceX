@@ -87,6 +87,10 @@
     font-size: 10px;
   }
 }
+* {
+  overflow-x: hidden;
+}
+
 .container-bg-img-falcon9 {
   background-image: url("../../imagens/falcon9/01.jpg");
 }
@@ -117,30 +121,6 @@
 
 .container-bg-img8-falcon9 {
   background-image: url("../../imagens/falcon9/08.jpg");
-}
-
-.container-bg-img9-falcon9 {
-  background-image: url("../../imagens/falcon9/09.jpg");
-}
-
-.container-bg-img10-falcon9 {
-  background-image: url("../../imagens/falcon9/10.jpg");
-}
-
-.container-bg-img11-falcon9 {
-  background-image: url("../../imagens/falcon9/11.jpg");
-}
-
-.container-bg-img12-falcon9 {
-  background-image: url("../../imagens/falcon9/12.jpg");
-}
-
-.container-bg-img13-falcon9 {
-  background-image: url("../../imagens/falcon9/13.jpg");
-}
-
-.container-bg-img14-falcon9 {
-  background-image: url("../../imagens/falcon9/14.jpg");
 }
 
 .container-title-falcon9 {
