@@ -119,6 +119,30 @@
   background-image: url("../../imagens/falcon9/08.jpg");
 }
 
+.container-bg-img9-falcon9 {
+  background-image: url("../../imagens/falcon9/09.jpg");
+}
+
+.container-bg-img10-falcon9 {
+  background-image: url("../../imagens/falcon9/10.jpg");
+}
+
+.container-bg-img11-falcon9 {
+  background-image: url("../../imagens/falcon9/11.jpg");
+}
+
+.container-bg-img12-falcon9 {
+  background-image: url("../../imagens/falcon9/12.jpg");
+}
+
+.container-bg-img13-falcon9 {
+  background-image: url("../../imagens/falcon9/13.jpg");
+}
+
+.container-bg-img14-falcon9 {
+  background-image: url("../../imagens/falcon9/14.jpg");
+}
+
 .container-title-falcon9 {
   min-height: 80vh;
 }
@@ -157,6 +181,10 @@
   width: 57%;
 }
 
+#carouselExampleCaptions {
+  min-width: 320px;
+}
+
 .table, .description-carousel, .first-sentence, .title-carousel {
   font-size: 16px;
   color: #fff;
@@ -169,6 +197,64 @@
 
 .container-carousel {
   padding-top: 200px;
+}
+
+.container-info {
+  background-color: black;
+  height: 705px;
+}
+.container-info p {
+  color: #fff;
+}
+.container-info button {
+  border: 2px solid;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .table, .description-carousel, .title-carousel {
+    width: 100%;
+  }
+  .falcon-description {
+    text-align: center;
+  }
+  .falcon-description .text-falcon-description {
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .container-title-falcon9 .title-falcon9 {
+    font-size: 30px;
+  }
+  .container-title-falcon9 .subtitle-falcon9 {
+    font-size: 10px;
+  }
+  .falcon-description .text-falcon-description {
+    font-size: 12px;
+  }
+  .table, .description-carousel, .first-sentence, .title-carousel {
+    font-size: 12px;
+  }
+  .title-carousel {
+    font-size: 18px;
+  }
+  .container-info .container-btn-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-info button {
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+    font-size: 12px;
+    width: 280px;
+  }
+  .container-numbers .number {
+    font-size: 50px;
+  }
+  .container-numbers .description-number {
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
